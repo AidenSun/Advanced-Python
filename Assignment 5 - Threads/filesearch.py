@@ -17,7 +17,7 @@ class FileSearch():
             for f in fileL:
                 self.files.append(tuple((os.path.join(dirPath, f), f)))
         
-        print(self.files)
+        #print(self.files)
 
     def searchName(self, regex, searchString, listResults):
         #print(regex)
@@ -29,7 +29,7 @@ class FileSearch():
         listResults = [fileTuple for fileTuple in self.files if re.search(regex, fileTuple[1]) and strIsInFile(searchString, fileTuple[0]) or len(searchString) == 0]
         listResults.sort(key=lambda tup: tup[0])
         
-        print(listResults)
+        #print(listResults)
         
         #fileNames = (fn for fn in self.files if re.search(regex, fn))
         #return sorted(i for fn in fileNames for i in self.files[fn])
