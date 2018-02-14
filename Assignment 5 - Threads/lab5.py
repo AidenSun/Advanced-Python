@@ -3,7 +3,6 @@ import tkinter.messagebox as tkmb
 from tkinter import filedialog
 import os
 import os.path
-from os import scandir
 import re
 from filesearch import FileSearch
 
