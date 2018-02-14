@@ -35,7 +35,7 @@ class FindWin(tk.Tk):
         regexEntry.bind('<Return>', self.__search)   #callback to search method when pressing return
         
         self.searchText = tk.StringVar()
-        searchLabel = tk.Label(self, text='Search String').grid(row=3, column=0, sticky='e')
+        searchLabel = tk.Label(self, text='Search String:').grid(row=3, column=0, sticky='e')
         searchEntry = tk.Entry(self, textvariable=self.searchText)
         searchEntry.grid(row=3, column=1, columnspan=3, sticky='ew')
         searchEntry.bind('<Return>', self.__search)
