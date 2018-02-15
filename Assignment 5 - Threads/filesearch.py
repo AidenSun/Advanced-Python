@@ -23,8 +23,9 @@ class FileSearch():
         #print(regex)
         
         for fileTuple in self.files:
-            if re.search(regex, fileTuple[1]) and strIsInFile(searchString, fileTuple[0]) or len(searchString) == 0:
-                listResults.append(fileTuple)
+            if re.search(regex, fileTuple[1]):
+                if strIsInFile(searchString, fileTuple[0]) or len(searchString) == 0:
+                    listResults.append(fileTuple)
                 
         listResults = [fileTuple for fileTuple in self.files if re.search(regex, fileTuple[1]) and strIsInFile(searchString, fileTuple[0]) or len(searchString) == 0]
         listResults.sort(key=lambda tup: tup[0])
