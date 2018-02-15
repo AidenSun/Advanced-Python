@@ -1,10 +1,13 @@
-#Aiden Sun
 #Gautam Mehta
+#Aiden Sun
 import tkinter as tk
 import tkinter.messagebox as tkmb
 from tkinter import filedialog
+import threading 
 import os
 import os.path
+import sys
+import platform
 import re
 from filesearch import FileSearch
 
@@ -13,24 +16,22 @@ class FindWin(tk.Tk):
         super().__init__()
 
         self.title('File Search')               #set title
-    
-        #os.chdir(os.path.expanduser('~'))       #change directory to home directory
         self.directory = tk.StringVar()
-        #self.directory.set(os.getcwd())         #set directory to current working directory
-        startDir = 'D:\CIS41B'
-        self.directory.set(startDir)
+        startDir = "/Users/gautammehta/Desktop/CIS40/"
         #startDir = os.path.expanduser('~')
+        self.directory.set(startDir)
+        
         
         CFLabel = tk.Label(self, text='Current Folder').grid(sticky='w')                            
         DirLabel = tk.Label(self, textvariable=self.directory).grid(row=0, column=1, sticky='w')    
     
-        CFButton = tk.Button(self, text='Change Folder', command=lambda:self.__selectDir()).grid(row=1, column=0, stick='w')
+        CFButton = tk.Button(self, text='Change Folder', command= self.__selectDir).grid(row=1, column=0, stick='w') #no longer need a lambda
         
         self.regexText = tk.StringVar()
         regexLabel = tk.Label(self, text='Regex filter:').grid(row=2, column=0, sticky='e')
         regexEntry = tk.Entry(self, textvariable=self.regexText)
         regexEntry.grid(row=2, column=1, columnspan=3, sticky='ew')
-        #self.initial_focus = regexEntry
+        
         regexEntry.focus_set()
         regexEntry.bind('<Return>', self.__search)   #callback to search method when pressing return
         
@@ -57,10 +58,11 @@ class FindWin(tk.Tk):
         
         self.result_list = []
         
+        self.protocol("WM_DELETE_WINDOW", self._exit)       
         self.update()
-        
+
         self.FS = FileSearch(self.directory.get())                                      #instantiate FileSearch object
-    
+        
     def __selectDir(self):
         os.chdir(filedialog.askdirectory())                                             #ask user for new directory and change directory to that
         
@@ -77,24 +79,46 @@ class FindWin(tk.Tk):
             tkmb.showerror(title='Oops', message="Invalid regex: " + str(e))       #error message if not
             return
             
-        self.FS.searchName(regex, self.searchText.get(), self.result_list)                                         #calls searchName from object and pass in regex
-        print(self.result_list)
+        #self.FS.searchName(regex, self.searchText.get(), self.result_list)        #calling searchName slows down process
+        e = threading.Event() 
+        t = threading.Thread(target=self.FS.searchName, args= (regex, self.searchText.get(), self.result_list)) # create a child thread 
+        
+        self.__cancelSearch()
+        self.result_list.clear()
+        t.start()
+           
         self.updateListBox()
         
     def updateListBox(self):
-        self.numFiles = len(self.result_list)                                           #number of files is the length of sorted list
-        self.foundFiles.set('Found ' + str(self.numFiles) + ' files')                   #set found files to number of files  
+        if t.isAlive() == True:
+            self.id =self.after(100, self.updateListBox)
+        elif t.isAlive() == False:
+            self.numFiles = len(self.result_list)                                           #number of files is the length of sorted list
+            self.foundFiles.set('Found ' + str(self.numFiles) + ' files')                   #set found files to number of files  
+            
+            if self.numFiles > 1000:
+                tkmb.showwarning(title='oops', message=str(self.numFiles) + " files found. That's over 1000.")
+                
+            else:
+                self.resultListbox.delete(0, tk.END)                                        #clears listbox
+                #for item in self.result_list:   
+                    #self.resultListbox.insert(tk.END, item[0])                              #populating listbox    
+                self.resultListbox.insert(tk.END, *self.result_list)
+                self.result_list[:] = []                                                    #clears result list
+    def __cancelSearch(self):
+        self.after_cancel(self.id) 
+        e.wait()
+        t.join()
         
-        if self.numFiles > 1000:
-            tkmb.showwarning(title='oops', message=str(self.numFiles) + " files found. That's over 1000.")
-        else:
-            self.resultListbox.delete(0, tk.END)                                        #clears listbox
-            for item in self.result_list:   
-                self.resultListbox.insert(tk.END, item[0])                              #populating listbox    
-            self.result_list[:] = []                                                    #clears result list
-    
+    def _exit(self):
+        self.after_cancel(self.id)   #its either this or 
+        #t.join() 
+        self.destroy()
+        
 def main() :
     win = FindWin()
-    win.mainloop()
-
-main()    
+    if platform.system() == 'Darwin': 
+        tmpl = 'tell application "System Events" to set frontmost of every process whose unix id is %d to true'
+        os.system("/usr/bin/osascript -e '%s'" % (tmpl % os.getpid()))      
+    win.mainloop() 
+main() 
