@@ -1,11 +1,13 @@
 import tkinter as tk
 import tkinter.messagebox as tkmb
-from tkinter import filedialog
+import tkinter.filedialog
 import os
 import os.path
 from os import scandir
 import re
 from filesearch import FileSearch
+import threading
+import queue
 
 class FindWin(tk.Tk):
     def __init__(self):
@@ -16,14 +18,14 @@ class FindWin(tk.Tk):
         #os.chdir(os.path.expanduser('~'))       #change directory to home directory
         self.directory = tk.StringVar()
         #self.directory.set(os.getcwd())         #set directory to current working directory
-        startDir = 'D:\CIS41B'
+        startDir = 'D:\TEST FOLDER'
         self.directory.set(startDir)
         #startDir = os.path.expanduser('~')
         
         CFLabel = tk.Label(self, text='Current Folder').grid(sticky='w')                            
         DirLabel = tk.Label(self, textvariable=self.directory).grid(row=0, column=1, sticky='w')    
     
-        CFButton = tk.Button(self, text='Change Folder', command=lambda:self.__selectDir()).grid(row=1, column=0, stick='w')
+        CFButton = tk.Button(self, text='Change Folder', command=self.__selectDir).grid(row=1, column=0, stick='w')
         
         self.regexText = tk.StringVar()
         regexLabel = tk.Label(self, text='Regex filter:').grid(row=2, column=0, sticky='e')
@@ -56,6 +58,7 @@ class FindWin(tk.Tk):
         
         self.result_list = []
         
+        self.protocol("WM_DELETE_WINDOW", self.__exit)
         self.update()
         
         self.FS = FileSearch(self.directory.get())                                      #instantiate FileSearch object
@@ -73,25 +76,59 @@ class FindWin(tk.Tk):
         try:
             regex = re.compile(self.regexText.get(), re.I)                              #checks if input regex is valid
         except re.error as e:
-            tkmb.showerror(title='Oops', message="Invalid regex: " + str(e))       #error message if not
+            tkmb.showerror(title='Oops', message="Invalid regex: " + str(e))            #error message if not
             return
+        
+        self.e = threading.Event()
+        self.e.set()
+        #self.FS.searchName(regex, self.searchText.get(), self.result_list)              #calls searchName from object and pass in regex
+        self.t = threading.Thread(target=self.FS.searchName, args=(regex, self.searchText.get(), self.result_list))
+        
+        if self.t.isAlive():
+            self.__cancelSearch()
+        else:
+            self.result_list.clear()
+            self.t.start()
             
-        self.FS.searchName(regex, self.searchText.get(), self.result_list)                                         #calls searchName from object and pass in regex
-        print(self.result_list)
+        #print(self.result_list)
         self.updateListBox()
         
     def updateListBox(self):
-        self.numFiles = len(self.result_list)                                           #number of files is the length of sorted list
-        self.foundFiles.set('Found ' + str(self.numFiles) + ' files')                   #set found files to number of files  
+        #self.numFiles = len(self.result_list)                                           #number of files is the length of sorted list
+        #self.foundFiles.set('Found ' + str(self.numFiles) + ' files')                   #set found files to number of files  
         
-        if self.numFiles > 1000:
-            tkmb.showwarning(title='oops', message=str(self.numFiles) + " files found. That's over 1000.")
+        #if self.numFiles > 1000:
+            #tkmb.showwarning(title='oops', message=str(self.numFiles) + " files found. That's over 1000.")
+        #else:
+            #self.resultListbox.delete(0, tk.END)                                        #clears listbox
+            #for item in self.result_list:   
+                #self.resultListbox.insert(tk.END, item[0])                              #populating listbox
+        #self.e.set()
+        if self.t.isAlive():
+            self.id = self.after(50, self.updateListBox)
+            print(self.id)
         else:
-            self.resultListbox.delete(0, tk.END)                                        #clears listbox
-            for item in self.result_list:   
-                self.resultListbox.insert(tk.END, item[0])                              #populating listbox    
-            self.result_list[:] = []                                                    #clears result list
+            self.numFiles = len(self.result_list)                                           #number of files is the length of sorted list
+            self.foundFiles.set('Found ' + str(self.numFiles) + ' files')                   #set found files to number of files  
+            
+            if self.numFiles > 1000:
+                tkmb.showwarning(title='oops', message=str(self.numFiles) + " files found. That's over 1000.")
+        
+        print(self.result_list)
+        #self.resultListbox.delete(0, tk.END)
+        #self.resultListbox.insert(tk.END, *self.result_list)
+        for item in self.result_list:   
+            self.resultListbox.insert(tk.END, item[0])         
     
+    def __cancelSearch(self):
+        self.after_cancel(self.id)
+        self.e.wait()
+        self.t.join()
+        
+    def __exit(self):
+        self.__cancelSearch()
+        self.destroy()
+        
 def main() :
     win = FindWin()
     win.mainloop()
