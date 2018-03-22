@@ -15,35 +15,74 @@ class FindWin(tk.Tk):
         super().__init__()
         conn = sqlite3.connect('yelp.db')
         self.cur = conn.cursor() 
-        
+        self.config(bg ='white')
         self.title('Fast Foods Near Deanza')
         self.resizable(False, True)
         
-        priceLabel = tk.Label(self, text='Price').grid(row=0, column=0, sticky='w')
-        ratingLabel = tk.Label(self, text='Rating').grid(row=0, column=1, sticky='w')
-        reviewCountLabel = tk.Label(self, text='Review Count').grid(row=0, column=2, sticky='w')
+        priceLabel = tk.Label(self, text='Price')
+        priceLabel.grid(row=0, column=0, sticky='w')
+        priceLabel.config(bg ='white')
+        
+        ratingLabel = tk.Label(self, text='Rating')
+        ratingLabel.grid(row=0, column=1, sticky='w')
+        ratingLabel.config(bg ='white')
+        
+        reviewCountLabel = tk.Label(self, text='Review Count')
+        reviewCountLabel.grid(row=0, column=2, sticky='w')
+        reviewCountLabel.config(bg ='white')
         
         self.filterRe = tk.StringVar()
-        priceRB1 = tk.Radiobutton(self, text="$", variable=self.filterRe, value='$', command=self.__applyPriceFilter).grid(row=1, column=0, sticky='w')
-        priceRB2 = tk.Radiobutton(self, text="$$", variable=self.filterRe, value='$$', command=self.__applyPriceFilter).grid(row=2, column=0, sticky='w')
-        priceRB3 = tk.Radiobutton(self, text="$$$", variable=self.filterRe, value='$$$', command=self.__applyPriceFilter).grid(row=3, column=0, sticky='w')        
+        priceRB1 = tk.Radiobutton(self, text="$", variable=self.filterRe, value='$', command=self.__applyPriceFilter)
+        priceRB1.grid(row=1, column=0, sticky='w')
+        priceRB1.config(bg ='white')
         
-        ratingRB1 = tk.Radiobutton(self, text="1-2 stars", variable=self.filterRe, value='1-2', command=self.__applyRatingFilter).grid(row=1, column=1, sticky='w')
-        ratingRB2 = tk.Radiobutton(self, text="2-3 stars", variable=self.filterRe, value='2-3', command=self.__applyRatingFilter).grid(row=2, column=1, sticky='w')
-        ratingRB3 = tk.Radiobutton(self, text="3-4 stars", variable=self.filterRe, value='3-4', command=self.__applyRatingFilter).grid(row=3, column=1, sticky='w')        
-        ratingRB4 = tk.Radiobutton(self, text="4-5 stars", variable=self.filterRe, value='4-5', command=self.__applyRatingFilter).grid(row=4, column=1, sticky='w')        
+        priceRB2 = tk.Radiobutton(self, text="$$", variable=self.filterRe, value='$$', command=self.__applyPriceFilter)
+        priceRB2.grid(row=2, column=0, sticky='w')
+        priceRB2.config(bg ='white')
+        
+        priceRB3 = tk.Radiobutton(self, text="$$$", variable=self.filterRe, value='$$$', command=self.__applyPriceFilter)
+        priceRB3.grid(row=3, column=0, sticky='w')  
+        priceRB3.config(bg ='white')
+        
+        ratingRB1 = tk.Radiobutton(self, text="1-2 stars", variable=self.filterRe, value='1-2', command=self.__applyRatingFilter)
+        ratingRB1.grid(row=1, column=1, sticky='w')
+        ratingRB1.config(bg ='white')
+        
+        ratingRB2 = tk.Radiobutton(self, text="2-3 stars", variable=self.filterRe, value='2-3', command=self.__applyRatingFilter)
+        ratingRB2.grid(row=2, column=1, sticky='w')
+        ratingRB2.config(bg ='white')
+        
+        ratingRB3 = tk.Radiobutton(self, text="3-4 stars", variable=self.filterRe, value='3-4', command=self.__applyRatingFilter)
+        ratingRB3.grid(row=3, column=1, sticky='w') 
+        ratingRB3.config(bg ='white')
+        
+        ratingRB4 = tk.Radiobutton(self, text="4-5 stars", variable=self.filterRe, value='4-5', command=self.__applyRatingFilter)
+        ratingRB4.grid(row=4, column=1, sticky='w')        
+        ratingRB4.config(bg ='white')
 
-        reviewCountRB1 = tk.Radiobutton(self, text="0-300", variable=self.filterRe, value='0-300', command=self.__applyRevCountFilter).grid(row=1, column=2, sticky='w')
-        reviewCountRB2 = tk.Radiobutton(self, text="300-600", variable=self.filterRe, value='300-600', command=self.__applyRevCountFilter).grid(row=2, column=2, sticky='w')
-        reviewCountRB3 = tk.Radiobutton(self, text="600-900", variable=self.filterRe, value='600-900', command=self.__applyRevCountFilter).grid(row=3, column=2, sticky='w')       
-        reviewCountRB4 = tk.Radiobutton(self, text="900-1300", variable=self.filterRe, value='900-1300', command=self.__applyRevCountFilter).grid(row=4, column=2, sticky='w')       
+        reviewCountRB1 = tk.Radiobutton(self, text="0-300", variable=self.filterRe, value='0-300', command=self.__applyRevCountFilter)
+        reviewCountRB1.grid(row=1, column=2, sticky='w')
+        reviewCountRB1.config(bg ='white')
+        
+        reviewCountRB2 = tk.Radiobutton(self, text="300-600", variable=self.filterRe, value='300-600', command=self.__applyRevCountFilter)
+        reviewCountRB2.grid(row=2, column=2, sticky='w')
+        reviewCountRB2.config(bg ='white')
+        
+        reviewCountRB3 = tk.Radiobutton(self, text="600-900", variable=self.filterRe, value='600-900', command=self.__applyRevCountFilter)
+        reviewCountRB3.grid(row=3, column=2, sticky='w')   
+        reviewCountRB3.config(bg ='white')
+        
+        reviewCountRB4 = tk.Radiobutton(self, text="900-1300", variable=self.filterRe, value='900-1300', command=self.__applyRevCountFilter)
+        reviewCountRB4.grid(row=4, column=2, sticky='w')       
+        reviewCountRB4.config(bg ='white')
         
         self.filterRe.set('$')
         
         img = PhotoImage(file='yelplogo.gif')
         logo = tk.Label(self, image=img)
-        logo.grid(row=0, column=3, rowspan=4 )
+        logo.grid(row=0, column=3, rowspan=4)
         logo.image = img
+        logo.config(bg = 'white')
         logo.bind("<Button-1>", self.__openWeb)
         
         scrollbar = tk.Scrollbar(self)
@@ -60,14 +99,18 @@ class FindWin(tk.Tk):
         for item in total_records:
             self.resultListBox.insert(tk.END, item) 
         
-        num_Resaurants = tk.Label(self, text='Number of Restaurants:').grid(row=7, column=0, columnspan=2, sticky='w')
+        num_Resaurants = tk.Label(self, text='Number of Restaurants:')
+        num_Resaurants.grid(row=7, column=0, columnspan=2, sticky='w')
+        num_Resaurants.config(bg = 'white')
         
         self.numResults = tk.IntVar()
         labelCount = tk.Label(self, textvariable=self.numResults)
         labelCount.grid(row=7, column=2, sticky='sw')
+        labelCount.config(bg = 'white')
         self.numResults.set(self.resultListBox.size())
 
-        clearButton = tk.Button(self, text='Clear Filter', command= self.__clear).grid(row=5, column=6, sticky='es')
+        clearButton = tk.Button(self, text='Clear Filter', command= self.__clear)
+        clearButton.grid(row=5, column=6, sticky='es')
         
         analyzeButton = tk.Button(self, text='Analyze', command= self.__finalAnalysis)
         analyzeButton.grid(row=6, column=6, sticky='e')
@@ -253,12 +296,12 @@ class FindWin(tk.Tk):
             digits = str(info[0][4])
             address = str(info[0][5])
             state = str(info[0][6])
-            display = 'Name of Restaurant: ' + name + '\nRating: ' + rating + '\nPrice: ' + price + '\nReview Count: ' + reviews + '\nDigits: ' + digits + '\nAddress: ' + address + ', ' + state
+            display = 'Name of Restaurant: ' + name + '\nRating: ' + rating + '\nPrice: ' + price + '\nReview Count: ' + reviews + '\nPhone Number: ' + digits + '\nAddress: ' + address + ', ' + state
             tkmb.showinfo(title='Information', message=display)
-        except TypeError:
+        except IndexError:
             key = value[0:2]
             name = value[4:]
-            self.cur.execute("SELECT name, crating, price, total_reviews, phone_number, address, LocationDB.cityState FROM MainDB JOIN LocationDB ON MainDB.location = LocationDB.key WHERE yid = ? AND name = ?", (key, name))
+            self.cur.execute("SELECT name, rating, price, total_reviews, phone_number, address, LocationDB.cityState FROM MainDB JOIN LocationDB ON MainDB.location = LocationDB.key WHERE yid = ? AND name = ?", (key, name))
             info = self.cur.fetchall()
             name = str(info[0][0])
             rating = str(info[0][1])
@@ -267,7 +310,7 @@ class FindWin(tk.Tk):
             digits = str(info[0][4])
             address = str(info[0][5])
             state = str(info[0][6])
-            info = 'Name of Restaurant: ' + name + '\nRating: ' + rating + '\nPrice: ' + price + '\nReview Count: ' + reviews + '\nDigits: ' + digits + '\nAddress: ' + address + ', ' + state
+            info = 'Name of Restaurant: ' + name + '\nRating: ' + rating + '\nPrice: ' + price + '\nReview Count: ' + reviews + '\nPhone Number: ' + digits + '\nAddress: ' + address + ', ' + state
             tkmb.showinfo(title='Information', message=info)  
      
     def __openWeb(self, event):
