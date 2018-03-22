@@ -9,7 +9,7 @@ from urllib.parse import quote
 from urllib.parse import urlencode
 from operator import itemgetter
 
-API_KEY= "HSem98mYFoVn0g2wB15VFHgTlH-VRElyc8Kq5uj5jnv80_tdlivd9DONC2a0SWkj2ymZ_1q4sm-QdmgU7f7Y58lfkE_RBMfbkBQnt7Uujp_0ykw_8JKD69djSEaYWnYx"
+#API_KEY= Insert API Key here
 API_HOST = 'https://api.yelp.com'
 SEARCH_PATH = '/v3/businesses/search'
 
