@@ -1,0 +1,2159 @@
+{
+     "total": 337,
+     "region": {
+          "center": {
+               "longitude": -122.045055,
+               "latitude": 37.31954
+          }
+     },
+     "businesses": [
+          {
+               "review_count": 396,
+               "url": "https://www.yelp.com/biz/chick-fil-a-sunnyvale-2?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 4.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94087",
+                    "city": "Sunnyvale",
+                    "display_address": [
+                         "550 W El Camino Real",
+                         "Sunnyvale, CA 94087"
+                    ],
+                    "address1": "550 W El Camino Real",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5549.328312167866,
+               "transactions": [],
+               "id": "chick-fil-a-sunnyvale-2",
+               "coordinates": {
+                    "longitude": -122.038434,
+                    "latitude": 37.369168
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/TPwYqPquobUcCU_PJSHuHA/o.jpg",
+               "phone": "+14088309940",
+               "display_phone": "(408) 830-9940",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Chick-fil-A"
+          },
+          {
+               "review_count": 478,
+               "url": "https://www.yelp.com/biz/in-n-out-burger-sunnyvale?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 4.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94087",
+                    "city": "Sunnyvale",
+                    "display_address": [
+                         "604 E El Camino Real",
+                         "Sunnyvale, CA 94087"
+                    ],
+                    "address1": "604 E El Camino Real",
+                    "state": "CA",
+                    "address2": null,
+                    "country": "US"
+               },
+               "distance": 4938.074927206341,
+               "transactions": [],
+               "id": "in-n-out-burger-sunnyvale",
+               "coordinates": {
+                    "longitude": -122.024951334068,
+                    "latitude": 37.3609732125796
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/yVe7_anGigcJoPGxcdbe7g/o.jpg",
+               "phone": "+18007861000",
+               "display_phone": "(800) 786-1000",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    }
+               ],
+               "name": "In-N-Out Burger"
+          },
+          {
+               "review_count": 33,
+               "url": "https://www.yelp.com/biz/popeyes-louisiana-kitchen-san-jose-6?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95129",
+                    "city": "San Jose",
+                    "display_address": [
+                         "7270 Bollinger Rd",
+                         "San Jose, CA 95129"
+                    ],
+                    "address1": "7270 Bollinger Rd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 1439.54105360776,
+               "transactions": [],
+               "id": "popeyes-louisiana-kitchen-san-jose-6",
+               "coordinates": {
+                    "longitude": -122.0318994,
+                    "latitude": 37.3119155
+               },
+               "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/WerBTddDqjzSPsRp4KpdEQ/o.jpg",
+               "phone": "+14088619465",
+               "display_phone": "(408) 861-9465",
+               "categories": [
+                    {
+                         "title": "Chicken Wings",
+                         "alias": "chicken_wings"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Popeyes Louisiana Kitchen"
+          },
+          {
+               "review_count": 448,
+               "url": "https://www.yelp.com/biz/starbird-sunnyvale-2?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 4.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94086",
+                    "city": "Sunnyvale",
+                    "display_address": [
+                         "1241 W El Camino Real",
+                         "Sunnyvale, CA 94086"
+                    ],
+                    "address1": "1241 W El Camino Real",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 6217.408865135475,
+               "transactions": [
+                    "pickup"
+               ],
+               "id": "starbird-sunnyvale-2",
+               "coordinates": {
+                    "longitude": -122.057104,
+                    "latitude": 37.374628
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/GgAe-nYahfIyTzXyXYBgcw/o.jpg",
+               "phone": "+16509886630",
+               "display_phone": "(650) 988-6630",
+               "categories": [
+                    {
+                         "title": "Chicken Shop",
+                         "alias": "chickenshop"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Sandwiches",
+                         "alias": "sandwiches"
+                    }
+               ],
+               "name": "Starbird"
+          },
+          {
+               "review_count": 93,
+               "url": "https://www.yelp.com/biz/mcdonalds-cupertino-2?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "10990 N Stelling Rd",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "10990 N Stelling Rd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 1993.9041606169658,
+               "transactions": [],
+               "id": "mcdonalds-cupertino-2",
+               "coordinates": {
+                    "longitude": -122.04099,
+                    "latitude": 37.3372
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/An5F33dnHRrdpzk32mNybw/o.jpg",
+               "phone": "+14082557576",
+               "display_phone": "(408) 255-7576",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    },
+                    {
+                         "title": "Coffee & Tea",
+                         "alias": "coffee"
+                    }
+               ],
+               "name": "McDonald's"
+          },
+          {
+               "review_count": 114,
+               "url": "https://www.yelp.com/biz/panda-express-cupertino-2?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "21000 Stevens Creek Blvd",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "21000 Stevens Creek Blvd",
+                    "state": "CA",
+                    "address2": null,
+                    "country": "US"
+               },
+               "distance": 475.18157280596193,
+               "transactions": [
+                    "delivery",
+                    "pickup"
+               ],
+               "id": "panda-express-cupertino-2",
+               "coordinates": {
+                    "longitude": -122.041250939361,
+                    "latitude": 37.3225583357164
+               },
+               "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/n4do1sgZ1hRZ3tLMaRzKZA/o.jpg",
+               "phone": "+14085170670",
+               "display_phone": "(408) 517-0670",
+               "categories": [
+                    {
+                         "title": "Chinese",
+                         "alias": "chinese"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Panda Express"
+          },
+          {
+               "review_count": 152,
+               "url": "https://www.yelp.com/biz/the-melt-cupertino-cupertino?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "20803 Steven's Creek Blvd",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "20803 Steven's Creek Blvd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 786.729226704884,
+               "transactions": [],
+               "id": "the-melt-cupertino-cupertino",
+               "coordinates": {
+                    "longitude": -122.03757,
+                    "latitude": 37.32333
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/0wtB0tdvmGINxged93SRNg/o.jpg",
+               "phone": "+14087757848",
+               "display_phone": "(408) 775-7848",
+               "categories": [
+                    {
+                         "title": "American (Traditional)",
+                         "alias": "tradamerican"
+                    },
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    },
+                    {
+                         "title": "Sandwiches",
+                         "alias": "sandwiches"
+                    }
+               ],
+               "name": "The Melt - Cupertino"
+          },
+          {
+               "review_count": 36,
+               "url": "https://www.yelp.com/biz/jack-in-the-box-cupertino?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "1451 S De Anza Blvd",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "1451 S De Anza Blvd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 2633.421896851272,
+               "transactions": [
+                    "delivery"
+               ],
+               "id": "jack-in-the-box-cupertino",
+               "coordinates": {
+                    "longitude": -122.03272,
+                    "latitude": 37.29811
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/UxiNPGn2vGySByG7lp7emA/o.jpg",
+               "phone": "+14085154760",
+               "display_phone": "(408) 515-4760",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    }
+               ],
+               "name": "Jack in the Box"
+          },
+          {
+               "review_count": 50,
+               "url": "https://www.yelp.com/biz/burger-king-san-jose-25?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95129",
+                    "city": "San Jose",
+                    "display_address": [
+                         "1007 S De Anza Blvd",
+                         "San Jose, CA 95129"
+                    ],
+                    "address1": "1007 S De Anza Blvd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 1526.150734763324,
+               "transactions": [],
+               "id": "burger-king-san-jose-25",
+               "coordinates": {
+                    "longitude": -122.032821655273,
+                    "latitude": 37.3100128173828
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/engzBhLRTHt2zKXp0GnzZQ/o.jpg",
+               "phone": "+14087251818",
+               "display_phone": "(408) 725-1818",
+               "categories": [
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Burger King"
+          },
+          {
+               "review_count": 178,
+               "url": "https://www.yelp.com/biz/five-guys-san-jose-8?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 4.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95129",
+                    "city": "San Jose",
+                    "display_address": [
+                         "5205 Prospect Ave",
+                         "San Jose, CA 95129"
+                    ],
+                    "address1": "5205 Prospect Ave",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5505.490572606158,
+               "transactions": [],
+               "id": "five-guys-san-jose-8",
+               "coordinates": {
+                    "longitude": -121.99241,
+                    "latitude": 37.29275
+               },
+               "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/l3x083WIR3_KpeYzzon-aA/o.jpg",
+               "phone": "+14083661006",
+               "display_phone": "(408) 366-1006",
+               "categories": [
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Five Guys"
+          },
+          {
+               "review_count": 287,
+               "url": "https://www.yelp.com/biz/the-kebab-shop-cupertino?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 4.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "19700 Vallco Pkwy",
+                         "Ste 150",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "19700 Vallco Pkwy",
+                    "state": "CA",
+                    "address2": "Ste 150",
+                    "country": "US"
+               },
+               "distance": 2886.680708862346,
+               "transactions": [
+                    "delivery",
+                    "pickup"
+               ],
+               "id": "the-kebab-shop-cupertino",
+               "coordinates": {
+                    "longitude": -122.01255,
+                    "latitude": 37.32535
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Inhz5PiKyped8MBcqcy2Ww/o.jpg",
+               "phone": "+14083804909",
+               "display_phone": "(408) 380-4909",
+               "categories": [
+                    {
+                         "title": "Mediterranean",
+                         "alias": "mediterranean"
+                    },
+                    {
+                         "title": "Middle Eastern",
+                         "alias": "mideastern"
+                    },
+                    {
+                         "title": "Greek",
+                         "alias": "greek"
+                    }
+               ],
+               "name": "The Kebab Shop"
+          },
+          {
+               "review_count": 369,
+               "url": "https://www.yelp.com/biz/chipotle-mexican-grill-cupertino?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "10385 S de Anza Blvd",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "10385 S de Anza Blvd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 1115.770179486866,
+               "transactions": [],
+               "id": "chipotle-mexican-grill-cupertino",
+               "coordinates": {
+                    "longitude": -122.03275,
+                    "latitude": 37.31701
+               },
+               "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/oKgF5nmNUnazfhKhKhytvw/o.jpg",
+               "phone": "+14082525421",
+               "display_phone": "(408) 252-5421",
+               "categories": [
+                    {
+                         "title": "Mexican",
+                         "alias": "mexican"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Chipotle Mexican Grill"
+          },
+          {
+               "review_count": 84,
+               "url": "https://www.yelp.com/biz/wendys-sunnyvale?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94087",
+                    "city": "Sunnyvale",
+                    "display_address": [
+                         "1313 S Wolfe Rd",
+                         "Sunnyvale, CA 94087"
+                    ],
+                    "address1": "1313 S Wolfe Rd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 4415.528861135547,
+               "transactions": [],
+               "id": "wendys-sunnyvale",
+               "coordinates": {
+                    "longitude": -122.01462,
+                    "latitude": 37.35102
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/EFQgRxInrzC6PW-gH_a-1A/o.jpg",
+               "phone": "+14087393123",
+               "display_phone": "(408) 739-3123",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    }
+               ],
+               "name": "Wendy's"
+          },
+          {
+               "review_count": 725,
+               "url": "https://www.yelp.com/biz/the-habit-burger-grill-sunnyvale?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 4.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94087",
+                    "city": "Sunnyvale",
+                    "display_address": [
+                         "146 W El Camino Real",
+                         "Sunnyvale, CA 94087"
+                    ],
+                    "address1": "146 W El Camino Real",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5467.895441339294,
+               "transactions": [],
+               "id": "the-habit-burger-grill-sunnyvale",
+               "coordinates": {
+                    "longitude": -122.033096592442,
+                    "latitude": 37.3677862415576
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/TLLGDFHEdJRxsqb3XniQiw/o.jpg",
+               "phone": "+14087749015",
+               "display_phone": "(408) 774-9015",
+               "categories": [
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    },
+                    {
+                         "title": "Salad",
+                         "alias": "salad"
+                    },
+                    {
+                         "title": "Sandwiches",
+                         "alias": "sandwiches"
+                    }
+               ],
+               "name": "The Habit Burger Grill"
+          },
+          {
+               "review_count": 38,
+               "url": "https://www.yelp.com/biz/taco-bell-cupertino?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "10710 S Deanza Blvd",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "10710 S Deanza Blvd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 1394.5993092200617,
+               "transactions": [],
+               "id": "taco-bell-cupertino",
+               "coordinates": {
+                    "longitude": -122.031879700084,
+                    "latitude": 37.3126476541728
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/33SjEyRt6j2RrtZJwew1HQ/o.jpg",
+               "phone": "+14082554536",
+               "display_phone": "(408) 255-4536",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Mexican",
+                         "alias": "mexican"
+                    },
+                    {
+                         "title": "Tex-Mex",
+                         "alias": "tex-mex"
+                    }
+               ],
+               "name": "Taco Bell"
+          },
+          {
+               "review_count": 82,
+               "url": "https://www.yelp.com/biz/mcdonalds-saratoga?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95070",
+                    "city": "Saratoga",
+                    "display_address": [
+                         "18578 Prospect Rd",
+                         "Saratoga, CA 95070"
+                    ],
+                    "address1": "18578 Prospect Rd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5262.673849082878,
+               "transactions": [],
+               "id": "mcdonalds-saratoga",
+               "coordinates": {
+                    "longitude": -121.9967917,
+                    "latitude": 37.2918589
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/XTxOxiDRypLtQDyk3CyV3w/o.jpg",
+               "phone": "+14084465092",
+               "display_phone": "(408) 446-5092",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    },
+                    {
+                         "title": "Coffee & Tea",
+                         "alias": "coffee"
+                    }
+               ],
+               "name": "McDonald's"
+          },
+          {
+               "review_count": 732,
+               "url": "https://www.yelp.com/biz/yiassoo-cupertino?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 4.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "10660 S De Anza Blvd",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "10660 S De Anza Blvd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 1341.700522290302,
+               "transactions": [
+                    "delivery",
+                    "pickup"
+               ],
+               "id": "yiassoo-cupertino",
+               "coordinates": {
+                    "longitude": -122.0319442819,
+                    "latitude": 37.3134677268778
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/rcNciWKJgRyzvgwJ5EE29Q/o.jpg",
+               "phone": "+14082535544",
+               "display_phone": "(408) 253-5544",
+               "categories": [
+                    {
+                         "title": "Greek",
+                         "alias": "greek"
+                    },
+                    {
+                         "title": "Mediterranean",
+                         "alias": "mediterranean"
+                    },
+                    {
+                         "title": "Soup",
+                         "alias": "soup"
+                    }
+               ],
+               "name": "Yiassoo"
+          },
+          {
+               "review_count": 259,
+               "url": "https://www.yelp.com/biz/woks-on-express-sunnyvale?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94087",
+                    "city": "Sunnyvale",
+                    "display_address": [
+                         "156 W El Camino Real",
+                         "Sunnyvale, CA 94087"
+                    ],
+                    "address1": "156 W El Camino Real",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5506.22193523795,
+               "transactions": [
+                    "delivery",
+                    "pickup"
+               ],
+               "id": "woks-on-express-sunnyvale",
+               "coordinates": {
+                    "longitude": -122.03362,
+                    "latitude": 37.36808
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ITk5YihgZwIihZk9g2oHzQ/o.jpg",
+               "phone": "+14087739888",
+               "display_phone": "(408) 773-9888",
+               "categories": [
+                    {
+                         "title": "Chinese",
+                         "alias": "chinese"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Wok's On Express"
+          },
+          {
+               "review_count": 269,
+               "url": "https://www.yelp.com/biz/in-n-out-burger-mountain-view-2?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 4.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94040",
+                    "city": "Mountain View",
+                    "display_address": [
+                         "53 W El Camino Real",
+                         "Mountain View, CA 94040"
+                    ],
+                    "address1": "53 W El Camino Real",
+                    "state": "CA",
+                    "address2": null,
+                    "country": "US"
+               },
+               "distance": 7233.813043093379,
+               "transactions": [],
+               "id": "in-n-out-burger-mountain-view-2",
+               "coordinates": {
+                    "longitude": -122.074063949235,
+                    "latitude": 37.3803709702694
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/T6E5lFGBPPfUpzKxdExJyg/o.jpg",
+               "phone": "+18007861000",
+               "display_phone": "(800) 786-1000",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    }
+               ],
+               "name": "In-N-Out Burger"
+          },
+          {
+               "review_count": 20,
+               "url": "https://www.yelp.com/biz/the-habit-burger-grill-cupertino-2?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.5,
+               "location": {
+                    "address3": null,
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "20735 Stevens Creek Blvd",
+                         "Ste H",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "20735 Stevens Creek Blvd",
+                    "state": "CA",
+                    "address2": "Ste H",
+                    "country": "US"
+               },
+               "distance": 965.2907653044299,
+               "transactions": [],
+               "id": "the-habit-burger-grill-cupertino-2",
+               "coordinates": {
+                    "longitude": -122.03534,
+                    "latitude": 37.32343
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ftxNRcBY_Iyg5-e3Iqht9A/o.jpg",
+               "phone": "+14083662208",
+               "display_phone": "(408) 366-2208",
+               "categories": [
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    },
+                    {
+                         "title": "Sandwiches",
+                         "alias": "sandwiches"
+                    },
+                    {
+                         "title": "Salad",
+                         "alias": "salad"
+                    }
+               ],
+               "name": "The Habit Burger Grill"
+          },
+          {
+               "review_count": 48,
+               "url": "https://www.yelp.com/biz/carls-jr-sunnyvale-2?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94087",
+                    "city": "Sunnyvale",
+                    "display_address": [
+                         "1051 E El Camino Real",
+                         "Sunnyvale, CA 94087"
+                    ],
+                    "address1": "1051 E El Camino Real",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5125.320923107787,
+               "transactions": [],
+               "id": "carls-jr-sunnyvale-2",
+               "coordinates": {
+                    "longitude": -122.00458,
+                    "latitude": 37.35257
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/53bxRzHEAlMiY9pBvsUaYg/o.jpg",
+               "phone": "+14082967756",
+               "display_phone": "(408) 296-7756",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Carl's Jr."
+          },
+          {
+               "review_count": 74,
+               "url": "https://www.yelp.com/biz/tastier-panburger-cupertino?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.5,
+               "location": {
+                    "address3": null,
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "20956 Homestead Rd",
+                         "Ste G",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "20956 Homestead Rd",
+                    "state": "CA",
+                    "address2": "Ste G",
+                    "country": "US"
+               },
+               "distance": 1960.7046629833478,
+               "transactions": [
+                    "pickup"
+               ],
+               "id": "tastier-panburger-cupertino",
+               "coordinates": {
+                    "longitude": -122.04032,
+                    "latitude": 37.33685
+               },
+               "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Po2wXJ-P2ueuH8Sl3ZJdNg/o.jpg",
+               "phone": "+14085204800",
+               "display_phone": "(408) 520-4800",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Chinese",
+                         "alias": "chinese"
+                    },
+                    {
+                         "title": "Asian Fusion",
+                         "alias": "asianfusion"
+                    }
+               ],
+               "name": "Tastier Panburger"
+          },
+          {
+               "review_count": 74,
+               "url": "https://www.yelp.com/biz/mcdonalds-san-jose-30?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95129",
+                    "city": "San Jose",
+                    "display_address": [
+                         "1150 S De Anza Blvd",
+                         "San Jose, CA 95129"
+                    ],
+                    "address1": "1150 S De Anza Blvd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 2096.0931286144237,
+               "transactions": [],
+               "id": "mcdonalds-san-jose-30",
+               "coordinates": {
+                    "longitude": -122.031826,
+                    "latitude": 37.303899
+               },
+               "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/pNEz9BoLLxi77hz6y6yM8A/o.jpg",
+               "phone": "+14087251319",
+               "display_phone": "(408) 725-1319",
+               "categories": [
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Coffee & Tea",
+                         "alias": "coffee"
+                    }
+               ],
+               "name": "McDonald's"
+          },
+          {
+               "review_count": 53,
+               "url": "https://www.yelp.com/biz/taco-bell-sunnyvale-6?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94087",
+                    "city": "Sunnyvale",
+                    "display_address": [
+                         "991 W El Camino Real",
+                         "Sunnyvale, CA 94087"
+                    ],
+                    "address1": "991 W El Camino Real",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5847.996597810065,
+               "transactions": [],
+               "id": "taco-bell-sunnyvale-6",
+               "coordinates": {
+                    "longitude": -122.047491099474,
+                    "latitude": 37.3720966849721
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/kUZ6UstG3EZYpVNgb0XJLQ/o.jpg",
+               "phone": "+14087394645",
+               "display_phone": "(408) 739-4645",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Mexican",
+                         "alias": "mexican"
+                    },
+                    {
+                         "title": "Tex-Mex",
+                         "alias": "tex-mex"
+                    }
+               ],
+               "name": "Taco Bell"
+          },
+          {
+               "review_count": 27,
+               "url": "https://www.yelp.com/biz/burger-king-san-jose-3?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95129",
+                    "city": "San Jose",
+                    "display_address": [
+                         "5154 Moorpark Ave",
+                         "San Jose, CA 95129"
+                    ],
+                    "address1": "5154 Moorpark Ave",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 4679.190674628232,
+               "transactions": [],
+               "id": "burger-king-san-jose-3",
+               "coordinates": {
+                    "longitude": -121.9938,
+                    "latitude": 37.30921
+               },
+               "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/CXyog3ssvDIClzQAtraQfw/o.jpg",
+               "phone": "+14082535460",
+               "display_phone": "(408) 253-5460",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    }
+               ],
+               "name": "Burger King"
+          },
+          {
+               "review_count": 417,
+               "url": "https://www.yelp.com/biz/in-n-out-burger-santa-clara-2?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 4.0,
+               "location": {
+                    "address3": null,
+                    "zip_code": "95054",
+                    "city": "Santa Clara",
+                    "display_address": [
+                         "3001 Mission College Blvd",
+                         "Santa Clara, CA 95054"
+                    ],
+                    "address1": "3001 Mission College Blvd",
+                    "state": "CA",
+                    "address2": null,
+                    "country": "US"
+               },
+               "distance": 9422.132020091456,
+               "transactions": [],
+               "id": "in-n-out-burger-santa-clara-2",
+               "coordinates": {
+                    "longitude": -121.982106,
+                    "latitude": 37.387923
+               },
+               "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/zpynElY4e0_uwOWL3zvyJw/o.jpg",
+               "phone": "+18007861000",
+               "display_phone": "(800) 786-1000",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    }
+               ],
+               "name": "In-N-Out Burger"
+          },
+          {
+               "review_count": 31,
+               "url": "https://www.yelp.com/biz/jack-in-the-box-santa-clara-2?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95051",
+                    "city": "Santa Clara",
+                    "display_address": [
+                         "3465 Homestead Rd",
+                         "Santa Clara, CA 95051"
+                    ],
+                    "address1": "3465 Homestead Rd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5079.600895136862,
+               "transactions": [
+                    "delivery"
+               ],
+               "id": "jack-in-the-box-santa-clara-2",
+               "coordinates": {
+                    "longitude": -121.992546081543,
+                    "latitude": 37.3381690979004
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/FfzjreY_htCcd0uCCGMfRw/o.jpg",
+               "phone": "+14085570149",
+               "display_phone": "(408) 557-0149",
+               "categories": [
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Ice Cream & Frozen Yogurt",
+                         "alias": "icecream"
+                    }
+               ],
+               "name": "Jack in the Box"
+          },
+          {
+               "review_count": 71,
+               "url": "https://www.yelp.com/biz/wendys-san-jose-6?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95129",
+                    "city": "San Jose",
+                    "display_address": [
+                         "990 Saratoga Ave",
+                         "San Jose, CA 95129"
+                    ],
+                    "address1": "990 Saratoga Ave",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 6137.245074125647,
+               "transactions": [],
+               "id": "wendys-san-jose-6",
+               "coordinates": {
+                    "longitude": -121.976745,
+                    "latitude": 37.308517
+               },
+               "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/elspVbSWp199cr6odkg5Zw/o.jpg",
+               "phone": "+14082435339",
+               "display_phone": "(408) 243-5339",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    }
+               ],
+               "name": "Wendy's"
+          },
+          {
+               "review_count": 39,
+               "url": "https://www.yelp.com/biz/taco-bell-sunnyvale-4?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94087",
+                    "city": "Sunnyvale",
+                    "display_address": [
+                         "1695 Hollenbeck Ave",
+                         "Sunnyvale, CA 94087"
+                    ],
+                    "address1": "1695 Hollenbeck Ave",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 2057.347156543286,
+               "transactions": [],
+               "id": "taco-bell-sunnyvale-4",
+               "coordinates": {
+                    "longitude": -122.041920253243,
+                    "latitude": 37.3378735110683
+               },
+               "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/IliTjow9BvXSpNT1qUiJ6Q/o.jpg",
+               "phone": "+14087208586",
+               "display_phone": "(408) 720-8586",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Chicken Wings",
+                         "alias": "chicken_wings"
+                    },
+                    {
+                         "title": "Mexican",
+                         "alias": "mexican"
+                    }
+               ],
+               "name": "Taco Bell"
+          },
+          {
+               "review_count": 411,
+               "url": "https://www.yelp.com/biz/the-city-fish-cupertino?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$$",
+               "is_closed": false,
+               "rating": 4.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "21678 Stevens Creek Blvd",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "21678 Stevens Creek Blvd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 840.0733952609639,
+               "transactions": [
+                    "pickup"
+               ],
+               "id": "the-city-fish-cupertino",
+               "coordinates": {
+                    "longitude": -122.053648956402,
+                    "latitude": 37.3227601469653
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/1o4t-4G6FWoYG7o23Mw8JQ/o.jpg",
+               "phone": "+14083201434",
+               "display_phone": "(408) 320-1434",
+               "categories": [
+                    {
+                         "title": "Sandwiches",
+                         "alias": "sandwiches"
+                    },
+                    {
+                         "title": "Seafood",
+                         "alias": "seafood"
+                    },
+                    {
+                         "title": "Fish & Chips",
+                         "alias": "fishnchips"
+                    }
+               ],
+               "name": "The City Fish"
+          },
+          {
+               "review_count": 91,
+               "url": "https://www.yelp.com/biz/popeyes-louisiana-kitchen-san-jose-5?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95129",
+                    "city": "San Jose",
+                    "display_address": [
+                         "1551 Saratoga Ave",
+                         "San Jose, CA 95129"
+                    ],
+                    "address1": "1551 Saratoga Ave",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5620.177785766207,
+               "transactions": [],
+               "id": "popeyes-louisiana-kitchen-san-jose-5",
+               "coordinates": {
+                    "longitude": -121.989875,
+                    "latitude": 37.294474
+               },
+               "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Mwl_5Qkns0nSnm-TDQXA-A/o.jpg",
+               "phone": "+14089738999",
+               "display_phone": "(408) 973-8999",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Chicken Wings",
+                         "alias": "chicken_wings"
+                    }
+               ],
+               "name": "Popeyes Louisiana Kitchen"
+          },
+          {
+               "review_count": 133,
+               "url": "https://www.yelp.com/biz/panda-express-san-jose-2?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95129",
+                    "city": "San Jose",
+                    "display_address": [
+                         "5180 Stevens Creek Rd",
+                         "San Jose, CA 95129"
+                    ],
+                    "address1": "5180 Stevens Creek Rd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 4520.596235916096,
+               "transactions": [
+                    "delivery",
+                    "pickup"
+               ],
+               "id": "panda-express-san-jose-2",
+               "coordinates": {
+                    "longitude": -121.994092880008,
+                    "latitude": 37.3227525854393
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/UNuhurJs6v0peHbzkzczng/o.jpg",
+               "phone": "+14082962718",
+               "display_phone": "(408) 296-2718",
+               "categories": [
+                    {
+                         "title": "Chinese",
+                         "alias": "chinese"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Panda Express"
+          },
+          {
+               "review_count": 53,
+               "url": "https://www.yelp.com/biz/jack-in-the-box-santa-clara-3?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95051",
+                    "city": "Santa Clara",
+                    "display_address": [
+                         "3367 El Camino Real",
+                         "Santa Clara, CA 95051"
+                    ],
+                    "address1": "3367 El Camino Real",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 6231.455528571433,
+               "transactions": [],
+               "id": "jack-in-the-box-santa-clara-3",
+               "coordinates": {
+                    "longitude": -121.98822787194,
+                    "latitude": 37.3526926740442
+               },
+               "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/scwgNeYomtk5zd620jIwtQ/o.jpg",
+               "phone": "+14082497940",
+               "display_phone": "(408) 249-7940",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    }
+               ],
+               "name": "Jack In the Box"
+          },
+          {
+               "review_count": 693,
+               "url": "https://www.yelp.com/biz/five-guys-sunnyvale?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94085",
+                    "city": "Sunnyvale",
+                    "display_address": [
+                         "116 E El Camino Real",
+                         "Sunnyvale, CA 94085"
+                    ],
+                    "address1": "116 E El Camino Real",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5354.665026404541,
+               "transactions": [],
+               "id": "five-guys-sunnyvale",
+               "coordinates": {
+                    "longitude": -122.03196651995,
+                    "latitude": 37.366558046321
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ZAZ6qbjB9XdN30d8G5BxjQ/o.jpg",
+               "phone": "+14088309100",
+               "display_phone": "(408) 830-9100",
+               "categories": [
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Five Guys"
+          },
+          {
+               "review_count": 158,
+               "url": "https://www.yelp.com/biz/nick-the-greek-sunnyvale-2?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 4.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94087",
+                    "city": "Sunnyvale",
+                    "display_address": [
+                         "1687 Hollenbeck Ave",
+                         "Ste A",
+                         "Sunnyvale, CA 94087"
+                    ],
+                    "address1": "1687 Hollenbeck Ave",
+                    "state": "CA",
+                    "address2": "Ste A",
+                    "country": "US"
+               },
+               "distance": 2044.5033361931537,
+               "transactions": [],
+               "id": "nick-the-greek-sunnyvale-2",
+               "coordinates": {
+                    "longitude": -122.0429006,
+                    "latitude": 37.3378467
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/9jspfYoCs9arVPuOA18ZdQ/o.jpg",
+               "phone": "+14086852830",
+               "display_phone": "(408) 685-2830",
+               "categories": [
+                    {
+                         "title": "Greek",
+                         "alias": "greek"
+                    }
+               ],
+               "name": "Nick the Greek"
+          },
+          {
+               "review_count": 145,
+               "url": "https://www.yelp.com/biz/popeyes-louisiana-kitchen-sunnyvale?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94087",
+                    "city": "Sunnyvale",
+                    "display_address": [
+                         "808 W El Camino Real",
+                         "Sunnyvale, CA 94087"
+                    ],
+                    "address1": "808 W El Camino Real",
+                    "state": "CA",
+                    "address2": null,
+                    "country": "US"
+               },
+               "distance": 5511.6443094447195,
+               "transactions": [],
+               "id": "popeyes-louisiana-kitchen-sunnyvale",
+               "coordinates": {
+                    "longitude": -122.04212,
+                    "latitude": 37.36949
+               },
+               "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/C06XZyVupqBKrGeRfv7XAw/o.jpg",
+               "phone": "+14087738228",
+               "display_phone": "(408) 773-8228",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Chicken Wings",
+                         "alias": "chicken_wings"
+                    }
+               ],
+               "name": "Popeyes Louisiana Kitchen"
+          },
+          {
+               "review_count": 76,
+               "url": "https://www.yelp.com/biz/taco-bell-san-jose-21?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95129",
+                    "city": "San Jose",
+                    "display_address": [
+                         "5389 Prospect Rd",
+                         "San Jose, CA 95129"
+                    ],
+                    "address1": "5389 Prospect Rd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5143.610011974596,
+               "transactions": [],
+               "id": "taco-bell-san-jose-21",
+               "coordinates": {
+                    "longitude": -121.997067,
+                    "latitude": 37.293409
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/lhSsDd6hshuubru3EIhRcg/o.jpg",
+               "phone": "+14088738572",
+               "display_phone": "(408) 873-8572",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Mexican",
+                         "alias": "mexican"
+                    }
+               ],
+               "name": "Taco Bell"
+          },
+          {
+               "review_count": 138,
+               "url": "https://www.yelp.com/biz/mod-pizza-cupertino?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 4.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "10815 N Wolfe Rd",
+                         "Ste 106",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "10815 N Wolfe Rd",
+                    "state": "CA",
+                    "address2": "Ste 106",
+                    "country": "US"
+               },
+               "distance": 3244.7072785497417,
+               "transactions": [],
+               "id": "mod-pizza-cupertino",
+               "coordinates": {
+                    "longitude": -122.014617994512,
+                    "latitude": 37.3358407331375
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/s3d-oLg9wpt9ZAE0akF7dA/o.jpg",
+               "phone": "+16692428311",
+               "display_phone": "(669) 242-8311",
+               "categories": [
+                    {
+                         "title": "Pizza",
+                         "alias": "pizza"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "MOD Pizza"
+          },
+          {
+               "review_count": 123,
+               "url": "https://www.yelp.com/biz/el-pollo-loco-sunnyvale-3?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94087",
+                    "city": "Sunnyvale",
+                    "display_address": [
+                         "996 W El Camino Real",
+                         "Sunnyvale, CA 94087"
+                    ],
+                    "address1": "996 W El Camino Real",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5783.8079009981575,
+               "transactions": [],
+               "id": "el-pollo-loco-sunnyvale-3",
+               "coordinates": {
+                    "longitude": -122.04817,
+                    "latitude": 37.37144
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/SQ4AewuFG_fTaOhbuuimTQ/o.jpg",
+               "phone": "+14087325002",
+               "display_phone": "(408) 732-5002",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Mexican",
+                         "alias": "mexican"
+                    }
+               ],
+               "name": "El Pollo Loco"
+          },
+          {
+               "review_count": 1255,
+               "url": "https://www.yelp.com/biz/ikes-love-and-sandwiches-cupertino-2?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$$",
+               "is_closed": false,
+               "rating": 4.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "21000 Stevens Creek Blvd",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "21000 Stevens Creek Blvd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 496.74588341966,
+               "transactions": [
+                    "pickup",
+                    "delivery"
+               ],
+               "id": "ikes-love-and-sandwiches-cupertino-2",
+               "coordinates": {
+                    "longitude": -122.040985745113,
+                    "latitude": 37.3226197734743
+               },
+               "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/8UQvY10Z00arp39kWNV7yw/o.jpg",
+               "phone": "+14088611000",
+               "display_phone": "(408) 861-1000",
+               "categories": [
+                    {
+                         "title": "Sandwiches",
+                         "alias": "sandwiches"
+                    },
+                    {
+                         "title": "Vegan",
+                         "alias": "vegan"
+                    },
+                    {
+                         "title": "Gluten-Free",
+                         "alias": "gluten_free"
+                    }
+               ],
+               "name": "Ike's Love and Sandwiches"
+          },
+          {
+               "review_count": 35,
+               "url": "https://www.yelp.com/biz/kfc-cupertino?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "10520 S De Anza Blvd.",
+                         "#257 Harman-Colonel & Claudia, Inc.",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "10520 S De Anza Blvd.",
+                    "state": "CA",
+                    "address2": "#257 Harman-Colonel & Claudia, Inc.",
+                    "country": "US"
+               },
+               "distance": 1251.285256401894,
+               "transactions": [],
+               "id": "kfc-cupertino",
+               "coordinates": {
+                    "longitude": -122.032,
+                    "latitude": 37.3152
+               },
+               "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/WuZXfWd0Gn15jKfDeXxWzg/o.jpg",
+               "phone": "+14082535057",
+               "display_phone": "(408) 253-5057",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Chicken Wings",
+                         "alias": "chicken_wings"
+                    }
+               ],
+               "name": "KFC"
+          },
+          {
+               "review_count": 129,
+               "url": "https://www.yelp.com/biz/panda-express-sunnyvale?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "94087",
+                    "city": "Sunnyvale",
+                    "display_address": [
+                         "798 E El Camino Real",
+                         "Sunnyvale, CA 94087"
+                    ],
+                    "address1": "798 E El Camino Real",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 4648.282421711394,
+               "transactions": [
+                    "delivery",
+                    "pickup"
+               ],
+               "id": "panda-express-sunnyvale",
+               "coordinates": {
+                    "longitude": -122.018189362832,
+                    "latitude": 37.3554737662492
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/lm7NYRgL6VYxhQ_b5LmG5Q/o.jpg",
+               "phone": "+14087394363",
+               "display_phone": "(408) 739-4363",
+               "categories": [
+                    {
+                         "title": "Chinese",
+                         "alias": "chinese"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Panda Express"
+          },
+          {
+               "review_count": 37,
+               "url": "https://www.yelp.com/biz/subway-cupertino-2?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95015",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "10525 S De Anza Blvd",
+                         "Ste 130",
+                         "Cupertino, CA 95015"
+                    ],
+                    "address1": "10525 S De Anza Blvd",
+                    "state": "CA",
+                    "address2": "Ste 130",
+                    "country": "US"
+               },
+               "distance": 1179.77544115063,
+               "transactions": [
+                    "delivery",
+                    "pickup"
+               ],
+               "id": "subway-cupertino-2",
+               "coordinates": {
+                    "longitude": -122.032815676155,
+                    "latitude": 37.3153180397316
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/NluXSlFhLqPiYdYvggPc0w/o.jpg",
+               "phone": "+14082529007",
+               "display_phone": "(408) 252-9007",
+               "categories": [
+                    {
+                         "title": "Sandwiches",
+                         "alias": "sandwiches"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Subway"
+          },
+          {
+               "review_count": 40,
+               "url": "https://www.yelp.com/biz/carls-jr-san-jose-7?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95129",
+                    "city": "San Jose",
+                    "display_address": [
+                         "1346 Saratoga Ave",
+                         "San Jose, CA 95129"
+                    ],
+                    "address1": "1346 Saratoga Ave",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5974.6538686525655,
+               "transactions": [],
+               "id": "carls-jr-san-jose-7",
+               "coordinates": {
+                    "longitude": -121.982086181641,
+                    "latitude": 37.2998924255371
+               },
+               "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/_AdZJwmEmkTAJJbuMSUrtQ/o.jpg",
+               "phone": "+14082466106",
+               "display_phone": "(408) 246-6106",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    }
+               ],
+               "name": "Carl's Jr"
+          },
+          {
+               "review_count": 15,
+               "url": "https://www.yelp.com/biz/subway-cupertino-4?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95014",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "19998 Homestead Rd",
+                         "Ste C",
+                         "Cupertino, CA 95014"
+                    ],
+                    "address1": "19998 Homestead Rd",
+                    "state": "CA",
+                    "address2": "Ste C",
+                    "country": "US"
+               },
+               "distance": 2796.1745899373136,
+               "transactions": [],
+               "id": "subway-cupertino-4",
+               "coordinates": {
+                    "longitude": -122.022736490386,
+                    "latitude": 37.3373555744097
+               },
+               "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/2_FLz_4J2epVHety-Yk5Nw/o.jpg",
+               "phone": "+14084464453",
+               "display_phone": "(408) 446-4453",
+               "categories": [
+                    {
+                         "title": "Sandwiches",
+                         "alias": "sandwiches"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Subway"
+          },
+          {
+               "review_count": 24,
+               "url": "https://www.yelp.com/biz/jack-in-the-box-san-jose-17?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95129",
+                    "city": "San Jose",
+                    "display_address": [
+                         "5220 Prospect Rd",
+                         "San Jose, CA 95129"
+                    ],
+                    "address1": "5220 Prospect Rd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5437.4312742082075,
+               "transactions": [],
+               "id": "jack-in-the-box-san-jose-17",
+               "coordinates": {
+                    "longitude": -121.994599280256,
+                    "latitude": 37.2916018538947
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/aQ7EaIjb5ss3cKJp6ZLGyQ/o.jpg",
+               "phone": "+14082537149",
+               "display_phone": "(408) 253-7149",
+               "categories": [
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Jack In the Box"
+          },
+          {
+               "review_count": 29,
+               "url": "https://www.yelp.com/biz/de-anza-college-dining-service-cupertino?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95015",
+                    "city": "Cupertino",
+                    "display_address": [
+                         "21250 Stevens Creek Blvd",
+                         "Cupertino, CA 95015"
+                    ],
+                    "address1": "21250 Stevens Creek Blvd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 107.76588969937198,
+               "transactions": [],
+               "id": "de-anza-college-dining-service-cupertino",
+               "coordinates": {
+                    "longitude": -122.04579949379,
+                    "latitude": 37.3203072888872
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/iN6VJAYAks6c8GU9qh3K6A/o.jpg",
+               "phone": "+14088648515",
+               "display_phone": "(408) 864-8515",
+               "categories": [
+                    {
+                         "title": "Sandwiches",
+                         "alias": "sandwiches"
+                    },
+                    {
+                         "title": "Breakfast & Brunch",
+                         "alias": "breakfast_brunch"
+                    },
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    }
+               ],
+               "name": "De Anza College Dining Service"
+          },
+          {
+               "review_count": 134,
+               "url": "https://www.yelp.com/biz/popeyes-louisiana-kitchen-santa-clara?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95051",
+                    "city": "Santa Clara",
+                    "display_address": [
+                         "2786 Homestead Rd",
+                         "Santa Clara, CA 95051"
+                    ],
+                    "address1": "2786 Homestead Rd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 6432.341135450496,
+               "transactions": [],
+               "id": "popeyes-louisiana-kitchen-santa-clara",
+               "coordinates": {
+                    "longitude": -121.9761916,
+                    "latitude": 37.338192
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/0xuh4QoMovARZyKNJhacPA/o.jpg",
+               "phone": "+14082608888",
+               "display_phone": "(408) 260-8888",
+               "categories": [
+                    {
+                         "title": "Chicken Wings",
+                         "alias": "chicken_wings"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Popeyes Louisiana Kitchen"
+          },
+          {
+               "review_count": 49,
+               "url": "https://www.yelp.com/biz/burger-king-santa-clara-2?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 2.5,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95051",
+                    "city": "Santa Clara",
+                    "display_address": [
+                         "3750 El Camino Real",
+                         "Santa Clara, CA 95051"
+                    ],
+                    "address1": "3750 El Camino Real",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 5384.10505349461,
+               "transactions": [],
+               "id": "burger-king-santa-clara-2",
+               "coordinates": {
+                    "longitude": -121.99977,
+                    "latitude": 37.35186
+               },
+               "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/w7Zux-arezTepWSnKoxfMA/o.jpg",
+               "phone": "+14082416564",
+               "display_phone": "(408) 241-6564",
+               "categories": [
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    },
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    }
+               ],
+               "name": "Burger King"
+          },
+          {
+               "review_count": 28,
+               "url": "https://www.yelp.com/biz/burger-king-san-jose-13?adjust_creative=t9akH4FAXsUIlZSNshthwA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=t9akH4FAXsUIlZSNshthwA",
+               "price": "$",
+               "is_closed": false,
+               "rating": 3.0,
+               "location": {
+                    "address3": "",
+                    "zip_code": "95129",
+                    "city": "San Jose",
+                    "display_address": [
+                         "385 Kiely Blvd",
+                         "San Jose, CA 95129"
+                    ],
+                    "address1": "385 Kiely Blvd",
+                    "state": "CA",
+                    "address2": "",
+                    "country": "US"
+               },
+               "distance": 6299.711114306768,
+               "transactions": [],
+               "id": "burger-king-san-jose-13",
+               "coordinates": {
+                    "longitude": -121.97321,
+                    "latitude": 37.3199951
+               },
+               "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/_90Dcd500k8pmqoJ-sauCw/o.jpg",
+               "phone": "+14082488740",
+               "display_phone": "(408) 248-8740",
+               "categories": [
+                    {
+                         "title": "Fast Food",
+                         "alias": "hotdogs"
+                    },
+                    {
+                         "title": "Burgers",
+                         "alias": "burgers"
+                    }
+               ],
+               "name": "Burger King"
+          }
+     ]
+}
